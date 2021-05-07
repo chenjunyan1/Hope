@@ -1,0 +1,59 @@
+ body {
+     margin: 0px;
+     background-color: darksalmon;
+     position: relative;
+ }
+ 
+ .all {
+     opacity: 0.9;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+ }
+ 
+ .xiwang {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .school {
+     font-family: 'font_two';
+     font-size: 50px;
+ }
+ 
+ .kaimu {
+     font-family: 'font_one';
+     font-size: 49px;
+ }
+ 
+ .img_1 {
+     width: 269px;
+ }
+ 
+ .img_2 {
+     width: 58px;
+ }
+ 
+ .img_3 {
+     width: 248px;
+ }
+ 
+ .wei {
+     position: absolute;
+     right: 20px;
+     bottom: 10px;
+     font-family: 'font_one';
+     font-size: 49px;
+ }
+ 
+ @font-face {
+     font-family: 'font_two';
+     src: url(./fonts/Satisfy/Satisfy-Regular.ttf);
+ }
+ 
+ @font-face {
+     font-family: 'font_one';
+     src: url(./fonts/Qwigley/Qwigley-Regular.ttf);
+ }
